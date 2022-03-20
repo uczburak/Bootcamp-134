@@ -21,10 +21,9 @@ namespace Loops
             {
                 // Kullanıcıdan her adımda bir tahmin iste
                 Console.WriteLine("Tahmininizi girin:");
-
                 int guess = Convert.ToInt32(Console.ReadLine());
-                // Aşağı ya da yukarı biçimde yönlendirme
 
+                // Aşağı ya da yukarı biçimde yönlendirme
                 if (guess < randomNumber)
                 {
                     Console.WriteLine("Yukarı!");
