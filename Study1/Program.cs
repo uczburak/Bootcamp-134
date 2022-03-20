@@ -23,14 +23,14 @@ namespace Study1
                 Console.Write("Input the value of c : ");
                 c = Convert.ToInt32(Console.ReadLine());
 
-                discriminant = b * b - 4 * a * c;
-                if (discriminant == 0)
+                discriminant = b * b - 4 * a * c;                               //discriminant calculation
+                if (discriminant == 0)                                          //if discriminant == 0 then roots must be same
                 {
                     Console.WriteLine("Both roots are equal.");
                     root1 = -b / (2.0 * a);
                     root2 = root1;
-                    Console.WriteLine($"First  Root Root1= {root1}");
-                    Console.WriteLine($"Second Root Root2= {root2}");
+                    Console.WriteLine($"First  Root Root1: {root1}");
+                    Console.WriteLine($"Second Root Root2: {root2}");
                 }
                 else if (discriminant > 0)
                 {
@@ -42,7 +42,7 @@ namespace Study1
                     Console.WriteLine($"First  Root Root1: {root1}");
                     Console.WriteLine($"Second Root Root2: {root2}");
                 }
-                else
+                else                                                            //if discriminant < 0 then solution set must be empty.
                     Console.Write("Root are imaginary. There is no Solution. \n\n");
             }
             catch (FormatException e)
