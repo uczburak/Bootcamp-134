@@ -6,7 +6,7 @@ namespace SwitchCase
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Choose traffic light (R/G/Y)");
+            Console.WriteLine("Choose traffic light (R/G/Y) ");
 
             string choosing = Console.ReadLine();
             if (choosing == "R")
