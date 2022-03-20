@@ -11,11 +11,11 @@ namespace SwitchCase
             string choosing = Console.ReadLine();
             if (choosing == "R")
             {
-                Console.WriteLine("Dur - Stop!");
+                Console.WriteLine("Dur -> Stop!");
             }
             else if (choosing == "Y")
             {
-                Console.WriteLine("Dikkat - Warning!");
+                Console.WriteLine("Dikkat -> Warning!");
             }
             else if (choosing == "G")
             {
