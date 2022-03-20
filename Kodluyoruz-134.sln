@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachLoop", "ForEachLoop\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study1", "Study1\Study1.csproj", "{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study2-PrimeNumbers", "Study2-PrimeNumbers\Study2-PrimeNumbers.csproj", "{7BAC47C7-1075-483F-9B4A-E8E9981C2115}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BAC47C7-1075-483F-9B4A-E8E9981C2115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BAC47C7-1075-483F-9B4A-E8E9981C2115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BAC47C7-1075-483F-9B4A-E8E9981C2115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BAC47C7-1075-483F-9B4A-E8E9981C2115}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
