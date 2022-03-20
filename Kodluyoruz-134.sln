@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwitchCase", "SwitchCase\Sw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArraysAndCollections", "ArraysAndCollections\ArraysAndCollections.csproj", "{FAF3AF58-3980-49CC-87E8-CCD82272943F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{68A27ED3-DB34-4415-AE82-BFDEC47EE1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForLoop", "ForLoop\ForLoop.csproj", "{1B3059D7-5EA3-437B-B998-4AD5D5A3C17B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{FAF3AF58-3980-49CC-87E8-CCD82272943F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAF3AF58-3980-49CC-87E8-CCD82272943F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAF3AF58-3980-49CC-87E8-CCD82272943F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68A27ED3-DB34-4415-AE82-BFDEC47EE1AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68A27ED3-DB34-4415-AE82-BFDEC47EE1AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68A27ED3-DB34-4415-AE82-BFDEC47EE1AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68A27ED3-DB34-4415-AE82-BFDEC47EE1AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B3059D7-5EA3-437B-B998-4AD5D5A3C17B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B3059D7-5EA3-437B-B998-4AD5D5A3C17B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B3059D7-5EA3-437B-B998-4AD5D5A3C17B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B3059D7-5EA3-437B-B998-4AD5D5A3C17B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
