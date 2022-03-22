@@ -13,17 +13,17 @@ namespace Study2_PrimeNumbers
                 Console.WriteLine("Input a number and check if it's a Prime Number...");
                 Console.WriteLine("--------------------------------------------------\n");
                 Console.Write("The number:  ");
-                uint number = Convert.ToUInt32(Console.ReadLine());
+                uint number = Convert.ToUInt32(Console.ReadLine());                         //input from user
                 for (int i = 2; i <= Math.Sqrt(number); i++)
                 {
-                    if (number % i == 0)
+                    if (number % i == 0)                                                    //to check if number evenly divided by i
                     {
                         Console.WriteLine($"\n\nThe given number:   {number}    -->     is NOT a PRIME NUMBER.");
                         number = 0;
                         break;
                     }
                 }
-                if (number != 0)
+                if (number != 0)                                                            //if it's not evenly divided by whole i integers, then it's a Prime Number
                     Console.WriteLine($"\n\nThe given number:   {number}    -->     is a PRIME NUMBER.");
             }
             catch (FormatException)
@@ -64,8 +64,8 @@ namespace Study2_PrimeNumbers
         static void Main(string[] args)
         {
             
-            //IsPrimeNumber();
-            PrimeNumbers();
+            IsPrimeNumber();
+            //PrimeNumbers();
 
         }
     }

@@ -19,9 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForLoop", "ForLoop\ForLoop.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ForEachLoop", "ForEachLoop\ForEachLoop.csproj", "{471972E9-437F-4D4F-B67E-941E38588DC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study1", "Study1\Study1.csproj", "{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study1", "Study1\Study1.csproj", "{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study2-PrimeNumbers", "Study2-PrimeNumbers\Study2-PrimeNumbers.csproj", "{7BAC47C7-1075-483F-9B4A-E8E9981C2115}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Study2-PrimeNumbers", "Study2-PrimeNumbers\Study2-PrimeNumbers.csproj", "{7BAC47C7-1075-483F-9B4A-E8E9981C2115}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WeeklyStudies", "WeeklyStudies", "{645EC4B3-0B04-4262-9AB1-FF5E3E0EC1BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +74,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F11B628F-B7AA-4D6E-9B8E-CC9FFAAAB701} = {645EC4B3-0B04-4262-9AB1-FF5E3E0EC1BC}
+		{7BAC47C7-1075-483F-9B4A-E8E9981C2115} = {645EC4B3-0B04-4262-9AB1-FF5E3E0EC1BC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6525C8CD-146F-4C9B-BCA1-378098C91564}
