@@ -1,13 +1,5 @@
 ﻿using System;
 
-namespace IntroCSharp
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            using System;
-
 namespace introCSharp
     {
         class Program
@@ -62,7 +54,3 @@ namespace introCSharp
             }
         }
     }
-
-}
-    }
-}

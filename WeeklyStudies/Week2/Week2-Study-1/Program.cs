@@ -26,7 +26,7 @@ namespace Week2_Study_1
             {
 
                 string selectedWord = chooseWord(words);
-                int guessLetterCount = selectedWord.Length/2+1, guessWordCount = 3;
+                int guessLetterCount = selectedWord.Length/2+1, guessWordCount = 3; //Guessing word and letter counts
                 string puzzle = replaceToStar(selectedWord);
                 Console.WriteLine($"Çözmeniz gereken" +
                     $" kelime {selectedWord.Length} harften oluşuyor. Harf Hakkınız: {guessLetterCount}, Kelime Hakkınız: {guessWordCount}\n" +
@@ -43,7 +43,7 @@ namespace Week2_Study_1
                         puzzle = replaceStarToLetter(selectedWord, puzzle, letter);
                         Console.WriteLine(puzzle);
                     }
-                    else if(guessLetterCount==0)
+                    else if(guessLetterCount==0)    //if count is 0, game is over.
                     {
                         Console.WriteLine("Harf bulunamadı, deneme hakkınız kalmamıştır.");
                         break;
@@ -65,7 +65,7 @@ namespace Week2_Study_1
                             Console.WriteLine("Tebrikler. Doğru bildiniz!");
                             break;
                         }
-                        else if(guessWordCount == 0)
+                        else if(guessWordCount == 0) //If count is 0, game is over.
                         {
                             Console.WriteLine("Yanlış kelime! Deneme hakkınız kalmamıştır.");
                             break;
@@ -75,13 +75,13 @@ namespace Week2_Study_1
 
                     }
                 }
-                //Console.WriteLine(puzzle);
+                Console.WriteLine(puzzle);
                 Console.WriteLine("Oyuna devam mı (E/H)?");
                 isGameOver = Console.ReadLine().ToUpper() == "H";
             }
         }
 
-        private static bool CompareGuessAndSelectedWord(string guess, string selectedWord, ref int guessWordCount)
+        private static bool CompareGuessAndSelectedWord(string guess, string selectedWord, ref int guessWordCount)//If its not equal, count down guessWordCount.
         {
             if(guess == selectedWord)
             {
@@ -120,6 +120,7 @@ namespace Week2_Study_1
 
         /// <summary>
         /// Bu metod ile bir kelimede bir harf olup olmadığını bulursunuz.
+        /// Kelimede harf yok ise, tahmin sayısı bir azaltılır.
         /// </summary>
         /// <param name="selectedWord">Kaynak kelime</param>
         /// <param name="letter">Aranacak harf</param>

@@ -35,6 +35,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week2", "Week2", "{4DEB40B3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2-Study-1", "WeeklyStudies\Week2\Week2-Study-1\Week2-Study-1.csproj", "{026E2B1B-97EE-4B4E-92DB-C89998CDCA43}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "week2-Study-2", "WeeklyStudies\Week2\week2-Study-2\week2-Study-2.csproj", "{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +87,10 @@ Global
 		{026E2B1B-97EE-4B4E-92DB-C89998CDCA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{026E2B1B-97EE-4B4E-92DB-C89998CDCA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{026E2B1B-97EE-4B4E-92DB-C89998CDCA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +110,7 @@ Global
 		{605EB957-1738-478C-95E9-B17CBE7B473A} = {9BE7C2CD-282B-402E-B9A0-8192C5585FC4}
 		{4DEB40B3-1CFE-424B-A442-65AFD93AF147} = {645EC4B3-0B04-4262-9AB1-FF5E3E0EC1BC}
 		{026E2B1B-97EE-4B4E-92DB-C89998CDCA43} = {4DEB40B3-1CFE-424B-A442-65AFD93AF147}
+		{FC8B15B5-441C-4B0F-B2DD-D2FA72ED8091} = {4DEB40B3-1CFE-424B-A442-65AFD93AF147}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6525C8CD-146F-4C9B-BCA1-378098C91564}
