@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AndOrCondition
+namespace WeeklyProgress.Week1.AndOrCondition
 {
     class Program
     {
